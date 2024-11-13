@@ -1,0 +1,26 @@
+{
+  "name": "facebook-messeger-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --env-file=.env --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0"
+  },
+  "imports": {
+    "#sys": "./src/system.js",
+    "#core": "./src/core/index.js",
+    "components": "./src/components/index.js",
+    "services": "./src/services/index.js",
+    "utils": "./src/utils/index.js"
+  },
+  "type": "module"
+}

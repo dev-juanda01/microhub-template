@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MicroHub Template</title>
+        <style>
+            /* General Reset */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: Arial, sans-serif;
+            }
+
+            /* Body Styling */
+            body {
+                background-color: #f9f9f9;
+                color: #333;
+                line-height: 1.6;
+                display: grid;
+                min-height: 100dvh;
+                grid-template-rows: auto 1fr auto;
+            }
+
+            /* Navbar Styling */
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1rem 2rem;
+                background-color: #333;
+                color: #fff;
+            }
+
+            .navbar .logo {
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+
+            .navbar .nav-links {
+                list-style: none;
+                display: flex;
+            }
+
+            .navbar .nav-links li {
+                margin-left: 1.5rem;
+            }
+
+            .navbar .nav-links a {
+                color: #fff;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            .navbar .nav-links a:hover {
+                color: #ffcc00;
+            }
+
+            /* Hero Section */
+            .hero {
+                text-align: center;
+                padding: 5rem 2rem;
+                background-color: #282c34;
+                color: #fff;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+                margin-bottom: 1rem;
+            }
+
+            .hero p {
+                font-size: 1.2rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .hero .btn-primary {
+                padding: 0.75rem 1.5rem;
+                background-color: #ffcc00;
+                color: #333;
+                text-decoration: none;
+                font-weight: bold;
+                border-radius: 5px;
+            }
+
+            .hero .btn-primary:hover {
+                background-color: #e6b800;
+            }
+
+            /* Footer */
+            footer {
+                padding: 1rem;
+                text-align: center;
+                background-color: #333;
+                color: #fff;
+                margin-top: 2rem;
+            }
+
+            footer p {
+                font-size: 0.9rem;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <header>
+            <nav class="navbar">
+                <div class="logo">MicroHub Template</div>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#docs">Documentation</a></li>
+                    <li><a href="#tutorials">Tutorials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Hero Section -->
+        <main>
+            <section class="hero">
+                <h1>Welcome to the Microservices Template</h1>
+                <p>Optimize your development with Node.js and Express, ideal for microservices applications.</p>
+                <a href="#get-started" class="btn-primary">Get Started</a>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 MicroHub Template - All rights reserved</p>
+        </footer>
+    </body>
+</html>
